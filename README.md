@@ -9,5 +9,21 @@ This repository refers to [CRAFT](https://github.com/clovaai/CRAFT-pytorch).
 1. Using [this repository](https://github.com/Depth-Semantic-Aware-Image-Generation/TBrain_China-Steel-AI-Challenge) to add some randomness while framing the input steel billet image with text areas.
 2. Then use [deep-text-recognition-benchmark](https://github.com/clovaai/deep-text-recognition-benchmark) to recognize the text in the framed steel billet image.
 
+![show4 Image](data/show4.jpg)
+![show5 Image](data/show5.jpg)
 ![show2 Image](data/show2.jpg)
 ![show3 Image](data/show3.jpg)
+
+## Code Description
+
+- **test.py**:  
+  Use the weights provided by the official CRAFT for prediction.
+
+- **cut_code.py & cut_code2**:  
+  Apply different cutting methods to the selected bounding box.
+
+- **Image_Search_Crawler.py**:  
+  Crawl images from the web using image search.
+  
+- **transpose.py**:  
+  Data augmentation methods.
