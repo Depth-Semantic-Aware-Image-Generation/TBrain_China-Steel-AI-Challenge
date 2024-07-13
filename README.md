@@ -20,7 +20,7 @@ This repository refers to [CRAFT](https://github.com/clovaai/CRAFT-pytorch).
 - **cut_code.py & cut_code2**:  
   Apply cutting methods with different randomness to the selected bounding box.
 - **image**:  
-  Images pending processing  
+  Images pending processing.
 - **start**:
   Images with bounding boxes awaiting cutting after running test.py.  
 - **end**:
