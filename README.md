@@ -13,10 +13,15 @@ This repository refers to [CRAFT](https://github.com/clovaai/CRAFT-pytorch).
 ![show2 Image](data/show2.jpg)
 ![show3 Image](data/show3.jpg)
 
-## Code Description
+## Code and folder description
 
 - **test.py**:  
   Use the weights provided by the official CRAFT for prediction.
-
 - **cut_code.py & cut_code2**:  
-  Apply different cutting methods to the selected bounding box.
+  Apply cutting methods with different randomness to the selected bounding box.
+- **image**:  
+  Images pending processing  
+- **start**:
+  Images with bounding boxes awaiting cutting after running test.py.  
+- **end**:
+  Images after being cut using randomized cutting methods.
