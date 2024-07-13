@@ -10,7 +10,6 @@ This repository refers to [CRAFT](https://github.com/clovaai/CRAFT-pytorch).
 2. Then use [deep-text-recognition-benchmark](https://github.com/clovaai/deep-text-recognition-benchmark) to recognize the text in the framed steel billet image.
 
 ![show4 Image](data/show4.jpg)
-![show5 Image](data/show5.jpg)
 ![show2 Image](data/show2.jpg)
 ![show3 Image](data/show3.jpg)
 
@@ -21,9 +20,3 @@ This repository refers to [CRAFT](https://github.com/clovaai/CRAFT-pytorch).
 
 - **cut_code.py & cut_code2**:  
   Apply different cutting methods to the selected bounding box.
-
-- **Image_Search_Crawler.py**:  
-  Crawl images from the web using image search.
-  
-- **transpose.py**:  
-  Data augmentation methods.
